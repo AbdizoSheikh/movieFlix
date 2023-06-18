@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Movie<span class="flix">FLIX</span></h1>
+        <form id="searchForm">
+          <div class="form-container">
+            <input type="text" id="searchInput" placeholder="Search for a movie...">
+            <button type="submit" id="searchButton">Search</button>
+          </div>
+        </form>
+      </header>
+
+  <main id="moviesContainer">
+    
+  </main>
+
+  <div id="paginationContainer" class="pagination-container"></div>
+
+  <div id="modalContainer" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="movieDetails"></div>
+    </div>
+  </div>
+
+  <div id="loaderContainer" class="loader-container">
+    <div class="loader"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
