@@ -1,4 +1,4 @@
-/* styles.css */
+
 *{
     margin: 0;
     padding: 0;
@@ -39,10 +39,7 @@ body {
     padding: 10px;
     width: 400px;
   }
-  
- /* styles.css */
 
-/* ... Existing CSS styles ... */
 
 form {
     text-align: center;
@@ -109,7 +106,7 @@ main {
     justify-content: space-between;
   }
   
-  /* New styles for responsive layout */
+  
   @media screen and (max-width: 768px) {
     #searchInput{
         width: 250px;
