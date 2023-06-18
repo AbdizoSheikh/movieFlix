@@ -1,4 +1,4 @@
-// script.js
+
 
 const apiKey = 'e6d486c9';
 const moviesContainer = document.getElementById('moviesContainer');
